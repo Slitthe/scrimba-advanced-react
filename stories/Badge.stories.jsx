@@ -8,15 +8,15 @@ export default {
 const baseArgs = {
   args: {
     children: "Badge",
-    color: "blue",
+    color: "gray",
   },
   argTypes: {
     color: {
-      control: "select",
+      control: "radio",
       options: ["gray", "red", "yellow", "green", "blue", "indigo", "purple", "pink"],
     },
     type: {
-      control: "select",
+      control: "radio",
       options: ["square", "pill"],
     },
   },

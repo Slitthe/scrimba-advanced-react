@@ -5,13 +5,7 @@ import BannerPlayground from "./components/Banner/BannerPlayground";
 import CardPlayground from "./components/Card/CardPlayground";
 
 function App() {
-  return (
-    <>
-      <BadgePlayground />
-      <BannerPlayground />
-      <CardPlayground />
-    </>
-  );
+  return <></>;
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
