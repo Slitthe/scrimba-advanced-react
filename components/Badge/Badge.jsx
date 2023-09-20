@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Badge.module.css";
+import classes from "./Badge.module.scss";
 import classNames from "classnames";
 
 export default function Badge({ children, type = "square", color = "" }) {

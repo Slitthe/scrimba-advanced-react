@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "*",
+    "sass": "^1.67.0",
     "vite": "latest"
   },
   "scripts": {
