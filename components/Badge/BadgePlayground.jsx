@@ -13,7 +13,7 @@ export default function BadgePlayground() {
           Pill:
           {colorOptions.map((color) => {
             return (
-              <span style={{ margin: 4 }}>
+              <span key={color} style={{ margin: 4 }}>
                 <Badge type="pill" color={color}>
                   {color}
                 </Badge>
@@ -26,7 +26,7 @@ export default function BadgePlayground() {
           Box:
           {colorOptions.map((color) => {
             return (
-              <span style={{ margin: 4 }}>
+              <span key={color} style={{ margin: 4 }}>
                 <Badge color={color}>{color}</Badge>
               </span>
             );

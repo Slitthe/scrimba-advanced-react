@@ -4,7 +4,7 @@ import Banner from "./Banner";
 export default function BannerPlayground() {
   return (
     <>
-      <h2>BannerPlayground</h2>
+      <h2>Banner</h2>
 
       <div style={{ marginLeft: 16 }}>
         <h2 style={{ fontWeight: 400 }}>Single Line</h2>

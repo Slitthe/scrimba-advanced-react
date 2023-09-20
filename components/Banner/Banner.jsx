@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Banner.module.scss";
+import classes from "./Banner.module.scss";
 import classNames from "classnames";
 
 import { AiFillCheckCircle, AiFillCloseCircle, AiFillWarning } from "react-icons/ai";
@@ -15,18 +15,18 @@ const iconTypes = {
 
 export default function Banner({ type = "neutral", title, description }) {
   const bannerClasses = classNames(
-    styles.banner,
-    styles[type],
-    !description ? styles.singleLine : null
+    classes.banner,
+    classes[type],
+    !description ? classes.singleLine : null
   );
 
   return (
     <div className={bannerClasses}>
-      <div className={styles.titleIconWrapper}>
-        <span className={styles.icon}>{iconTypes[type]}</span>
-        <div className={styles.title}>{title}</div>
+      <div className={classes.titleIconWrapper}>
+        <span className={classes.icon}>{iconTypes[type]}</span>
+        <div className={classes.title}>{title}</div>
       </div>
-      {description && <div className={styles.description}>{description}</div>}
+      {description && <div className={classes.description}>{description}</div>}
     </div>
   );
 }
