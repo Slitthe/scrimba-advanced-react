@@ -9,5 +9,6 @@ export default function Badge({ children, type = "square", color = "" }) {
     color ? classes[color] : null,
   ];
 
+
   return <span className={classNames(badgeClassNames)}>{children}</span>;
 }

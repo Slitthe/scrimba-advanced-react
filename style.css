@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300,400;500;700&family=Montserrat&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,10 +8,13 @@
 body {
     height: 100vh;
     margin: 0;
-    padding: 10px;
     display: flex;
     justify-content: center;
     font-family: 'Inter', sans-serif;
+}
+
+.body, #root {
+    width: 100%;
 }
 
 .star {
@@ -86,9 +89,8 @@ button.button-danger {
     left: 0;
     margin-top: 3px;
     background-color: white;
-    border: 1px solid gray;
+    border: 1px solid rgb(128, 128, 128);
     border-radius: 6px;
-    background-color: white;
 }
 
 .menu-item {
